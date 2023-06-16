@@ -93,22 +93,29 @@ const file_content = {
 const saveToJson = async (req, res) => {
   const file_content = req.body;
   console.log(file_content);
-  fs.readFile("./intents.json", (err, data) => {
-    if (err) {
-      console.error(err);
-      return;
-    }
-    const parsedData = JSON.parse(data);
-    parsedData.intents.push(file_content);
-    const updatedData = JSON.stringify(parsedData, null, 2);
-    fs.writeFile("./intents.json", updatedData, (err) => {
+  fs.readFile(
+    "C:/Users/Admin/Desktop/Stage/chatbot/chatbot-tenserflow/intents.json",
+    (err, data) => {
       if (err) {
         console.error(err);
         return;
       }
-      console.log("Data appended to file");
-    });
-  });
+      const parsedData = JSON.parse(data);
+      parsedData.intents.push(file_content);
+      const updatedData = JSON.stringify(parsedData, null, 2);
+      fs.writeFile(
+        "C:/Users/Admin/Desktop/Stage/chatbot/chatbot-tenserflow/intents.json",
+        updatedData,
+        (err) => {
+          if (err) {
+            console.error(err);
+            return;
+          }
+          console.log("Data appended to file");
+        }
+      );
+    }
+  );
   res.send("Data appended to file");
 };
 

@@ -15,7 +15,11 @@
         "hey",
         "what's up"
       ],
-      "responses": ["Hello!", "Good to see you!", "Hi there, how can I help?"],
+      "responses": [
+        "Hello!",
+        "Good to see you!",
+        "Hi there, how can I help?"
+      ],
       "context_set": "greeting"
     },
     {
@@ -30,7 +34,11 @@
         "i have to go",
         "gotta go"
       ],
-      "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+      "responses": [
+        "Sad to see you go :(",
+        "Talk to you later",
+        "Goodbye!"
+      ],
       "context_set": "goodbye"
     },
     {
@@ -42,7 +50,10 @@
         "how old are you",
         "age?"
       ],
-      "responses": ["I am old and wise", "trying to stay fit and young!"],
+      "responses": [
+        "I am old and wise",
+        "trying to stay fit and young!"
+      ],
       "context_set": "age"
     },
     {
@@ -85,6 +96,45 @@
         "I'm JameaElfna Assistance."
       ],
       "context_set": "name"
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "May I ask a question?",
+        "What would you like to know?",
+        "Is there something you'd like to ask?",
+        "What can you tell me about yourself?",
+        "How can I assist you?",
+        "Do you have any questions for me?",
+        "What is it that you need help with?",
+        "Is there anything specific that you're looking for?",
+        "What kind of assistance are you seeking?",
+        "Can I be of any help to you?",
+        "What exactly do you want to know?",
+        "How may I be of service?",
+        "Is there a particular topic you'd like to discuss?",
+        "What would you like me to do for you?",
+        "What are you curious about?",
+        "Do you have any questions about my abilities?",
+        "What do you want me to do?",
+        "What is your query?",
+        "What can I do to help?",
+        "Can you please specify what you need help with?",
+        "What do you need assistance with, if you don't mind me asking?",
+        "What are you interested in?",
+        "What is it that you wish to accomplish?",
+        "What do you want to tell me?",
+        "What do you want to talk about?",
+        "Is there something on your mind?",
+        "What's on your agenda today?",
+        "What are you looking for?",
+        "What do you want me to assist you with?",
+        "How may I be of assistance?"
+      ],
+      "responses": [
+        "Is there anything specific you would like to discuss or any particular assistance you need at this time? I'm here to assist in any way that I can."
+      ],
+      "context_set": "help"
     },
     {
       "tag": "Marrakech",
@@ -748,39 +798,42 @@
       "context_set": "currency"
     },
     {
-      "tag": "morocco",
+      "tag": "raja",
       "patterns": [
-        "What is the population of Morocco?",
-        "What is the estimated number of people living in Morocco?",
-        "How many people reside in Morocco?",
-        "How many individuals inhabit Morocco?",
-        "How many people are there in Morocco?",
-        "What is the size of population in Morocco?",
-        "What is the population of Morocco at present?",
-        "What is the total population of Morocco?",
-        "How many residents live in Morocco?",
-        "What is the current population of Morocco?",
-        "How many citizens in Morocco live?",
-        "How many people live in Morocco currently?",
-        "How many people are currently in Morocco?",
-        "How many people inhabit Morocco right now?",
-        "What is the Moroccan population?",
-        "How big is the population of Morocco?",
-        "What is the population of Morocco nowadays?",
-        "What is the amount of people living in Morocco?",
-        "How many people are living in Morocco now?",
-        "What is the total count of people in Morocco?",
-        "How many people reside in Morocco presently?",
-        "How many people dwell in Morocco nowadays?",
-        "What is the approximate number of people living in Morocco?",
-        "What is the population of Morocco at the moment?",
-        "What is the right now population of Morocco?",
-        "How many people are currently residing in Morocco?",
-        "What is the amount of individuals currently living in Morocco?",
-        "What is the number of people currently living in Morocco?"
+        "What does the term 'Raja Club Athletics' refer to?",
+        "Can you tell me what Raja Club Athletics is?",
+        "What is the meaning of Raja Club Athletics?",
+        "Describe what Raja Club Athletics is.",
+        "Can you give me some information about Raja Club Athletics?",
+        "What is Raja Club Athletics and what do they do?",
+        "Who or what is Raja Club Athletics?",
+        "What is the purpose of Raja Club Athletics?",
+        "What are the goals of Raja Club Athletics?",
+        "What is the mission of Raja Club Athletics?",
+        "What kind of organization is Raja Club Athletics?",
+        "What activities does Raja Club Athletics engage in?",
+        "Is Raja Club Athletics a sports team or an organization?",
+        "What sector does Raja Club Athletics belong to?",
+        "What is the history of Raja Club Athletics?",
+        "What are the achievements of Raja Club Athletics?",
+        "What is the importance of Raja Club Athletics?",
+        "What role does Raja Club Athletics play in the community?",
+        "What is the philosophy of Raja Club Athletics?",
+        "What values does Raja Club Athletics prioritize?",
+        "What is the structure of Raja Club Athletics?",
+        "What is the size of Raja Club Athletics?",
+        "Who is involved in Raja Club Athletics?",
+        "What are the different branches of Raja Club Athletics?",
+        "What are the different programs offered by Raja Club Athletics?",
+        "What are the benefits of being a member of Raja Club Athletics?",
+        "What is the reputation of Raja Club Athletics?",
+        "What is the future of Raja Club Athletics?",
+        "What is the relationship of Raja Club Athletics with other organizations?"
       ],
-      "responses": ["answer "],
-      "context_set": ""
+      "responses": [
+        "morrocan club"
+      ],
+      "context_set": "raja"
     }
   ]
 }
