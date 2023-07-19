@@ -5,7 +5,7 @@ In the project directory, you can run:
 
 ### `npm install`
 
-create .env file and add those two lines :
+create .env file and add those 3 lines :
 
 MONGO_URL = "your mongodb url here" <br>
 PORT = "your port here" <br>
