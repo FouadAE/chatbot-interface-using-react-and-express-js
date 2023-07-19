@@ -7,9 +7,9 @@ In the project directory, you can run:
 
 create .env file and add those two lines :
 
-MONGO_URL = "your mongodb url here"
-PORT = "your port here"
-OPENAI_API_KEY= "you open ai api key here" 
+MONGO_URL = "your mongodb url here"\n
+PORT = "your port here"\n
+OPENAI_API_KEY= "you open ai api key here"\n 
 
 change the path in saveToJson function in  controllers/question.js to the intents.json file location  
 
